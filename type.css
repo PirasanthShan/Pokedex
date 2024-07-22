@@ -1,0 +1,327 @@
+/* Standard-Hintergrund für alle Typen */
+.type {
+  background-image: linear-gradient(to right, #000000 0%, black 100%);
+  color: white; /* Textfarbe kann angepasst werden, falls nötig */
+  transition: background 0.3s ease, transform 0.3s ease; /* Hinzufügen von transform transition */
+  cursor: pointer; /* Cursor wird zu einem Pointer bei Hover */
+}
+.type:hover .img {
+  transform: scale(1.2);
+}
+/* Normal-Typ */
+.normal {
+  background-image: linear-gradient(to right, #434343 0%, #A8A878 100%);
+}
+.normal:hover {
+  background: #A8A878;
+  transform: scale(1.2); /* Vergrößern der Karte beim Hover */
+}
+
+/* Feuer-Typ */
+.fire {
+  background-image: linear-gradient(to right, #434343 0%, #F08030 100%);
+}
+.fire:hover {
+  background: #F08030;
+  transform: scale(1.2);
+  
+}
+
+/* Wasser-Typ */
+.water {
+  background-image: linear-gradient(to right, #434343 0%, #6890F0 100%);
+}
+.water:hover {
+  background: #6890F0;
+  transform: scale(1.2);
+}
+
+/* Elektro-Typ */
+.electric {
+  background-image: linear-gradient(to right, #434343 0%, #F8D030 100%);
+}
+.electric:hover {
+  background: #F8D030;
+  transform: scale(1.2);
+}
+
+/* Pflanzen-Typ */
+.grass {
+  background-image: linear-gradient(to right, #434343 0%, #78C850 100%);
+}
+.grass:hover {
+  background: #78C850;
+  transform: scale(1.2);
+}
+
+/* Eis-Typ */
+.ice {
+  background-image: linear-gradient(to right, #434343 0%, #98D8D8 100%);
+}
+.ice:hover {
+  background: #98D8D8;
+  transform: scale(1.2);
+}
+
+/* Kampf-Typ */
+.fighting {
+  background-image: linear-gradient(to right, #434343 0%, #C03028 100%);
+}
+.fighting:hover {
+  background: #C03028;
+  transform: scale(1.2);
+}
+
+/* Gift-Typ */
+.poison {
+  background-image: linear-gradient(to right, #434343 0%, #A040A0 100%);
+}
+.poison:hover {
+  background: #A040A0;
+  transform: scale(1.2);
+}
+
+/* Boden-Typ */
+.ground {
+  background-image: linear-gradient(to right, #434343 0%, #E0C068 100%);
+}
+.ground:hover {
+  background: #E0C068;
+  transform: scale(1.2);
+}
+
+/* Flug-Typ */
+.flying {
+  background-image: linear-gradient(to right, #434343 0%, #A890F0 100%);
+}
+.flying:hover {
+  background: #A890F0;
+  transform: scale(1.2);
+}
+
+/* Psycho-Typ */
+.psychic {
+  background-image: linear-gradient(to right, #434343 0%, #F85888 100%);
+}
+.psychic:hover {
+  background: #F85888;
+  transform: scale(1.2);
+}
+
+/* Käfer-Typ */
+.bug {
+  background-image: linear-gradient(to right, #434343 0%, #A8B820 100%);
+}
+.bug:hover {
+  background: #A8B820;
+  transform: scale(1.2);
+}
+
+/* Fels-Typ */
+.rock {
+  background-image: linear-gradient(to right, #434343 0%, #B8A038 100%);
+}
+.rock:hover {
+  background: #B8A038;
+  transform: scale(1.2);
+}
+
+/* Geist-Typ */
+.ghost {
+  background-image: linear-gradient(to right, #434343 0%, #705898 100%);
+}
+.ghost:hover {
+  background: #705898;
+  transform: scale(1.2);
+}
+
+/* Drache-Typ */
+.dragon {
+  background-image: linear-gradient(to right, #434343 0%, #7038F8 100%);
+}
+.dragon:hover {
+  background: #7038F8;
+  transform: scale(1.2);
+}
+
+/* Unlicht-Typ */
+.dark {
+  background-image: linear-gradient(to right, #434343 0%, #705848 100%);
+}
+.dark:hover {
+  background: #705848;
+  transform: scale(1.2);
+}
+
+/* Stahl-Typ */
+.steel {
+  background-image: linear-gradient(to right, #434343 0%, #B8B8D0 100%);
+}
+.steel:hover {
+  background: #B8B8D0;
+  transform: scale(1.2);
+}
+
+/* Fee-Typ */
+.fairy {
+  background-image: linear-gradient(to right, #434343 0%, #EE99AC 100%);
+}
+.fairy:hover {
+  background: #EE99AC;
+  transform: scale(1.2);
+}
+
+/* Typ-Farben mit dunkleren Übergängen */
+.normal-gradient {
+  background-image: linear-gradient(to right, #434343 0%, #A8A77A 100%);
+}
+
+.fire-gradient {
+  background-image: linear-gradient(to right, #434343 0%, #EE8130 100%);
+}
+
+.water-gradient {
+  background-image: linear-gradient(to right, #434343 0%, #6390F0 100%);
+}
+
+.electric-gradient {
+  background-image: linear-gradient(to right, #434343 0%, #F7D02C 100%);
+}
+
+.grass-gradient {
+  background-image: linear-gradient(to right, #434343 0%, #7AC74C 100%);
+}
+
+.ice-gradient {
+  background-image: linear-gradient(to right, #434343 0%, #96D9D6 100%);
+}
+
+.fighting-gradient {
+  background-image: linear-gradient(to right, #434343 0%, #C22E28 100%);
+}
+
+.poison-gradient {
+  background-image: linear-gradient(to right, #434343 0%, #A33EA1 100%);
+}
+
+.ground-gradient {
+  background-image: linear-gradient(to right, #434343 0%, #E2BF65 100%);
+}
+
+.flying-gradient {
+  background-image: linear-gradient(to right, #434343 0%, #A98FF3 100%);
+}
+
+.psychic-gradient {
+  background-image: linear-gradient(to right, #434343 0%, #F95587 100%);
+}
+
+.bug-gradient {
+  background-image: linear-gradient(to right, #434343 0%, #A6B91A 100%);
+}
+
+.rock-gradient {
+  background-image: linear-gradient(to right, #434343 0%, #B6A136 100%);
+}
+
+.ghost-gradient {
+  background-image: linear-gradient(to right, #434343 0%, #735797 100%);
+}
+
+.dragon-gradient {
+  background-image: linear-gradient(to right, #434343 0%, #6F35FC 100%);
+}
+
+.dark-gradient {
+  background-image: linear-gradient(to right, #434343 0%, #705746 100%);
+}
+
+.steel-gradient {
+  background-image: linear-gradient(to right, #434343 0%, #B7B7CE 100%);
+}
+
+.fairy-gradient {
+  background-image: linear-gradient(to right, #434343 0%, #D685AD 100%);
+}
+
+.cardRender {
+  
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Beispiel-Typfarben */
+.cardRender.fire {
+  background-color: #F08030;
+}
+
+.cardRender.water {
+  background-color: #6890F0;
+}
+
+.cardRender.grass {
+  background-color: #78C850;
+}
+
+.cardRender.electric {
+  background-color: #F8D030;
+}
+
+.cardRender.bug {
+  background-color: #A8B820;
+}
+
+.cardRender.dark {
+  background-color: #705848;
+}
+
+.cardRender.dragon {
+  background-color: #7038F8;
+}
+
+.cardRender.fairy {
+  background-color: #EE99AC;
+}
+
+.cardRender.fighting {
+  background-color: #C03028;
+}
+
+.cardRender.flying {
+  background-color: #A890F0;
+}
+
+.cardRender.ghost {
+  background-color: #705898;
+}
+
+.cardRender.ground {
+  background-color: #E0C068;
+}
+
+.cardRender.ice {
+  background-color: #98D8D8;
+}
+
+.cardRender.normal {
+  background-color: #A8A878;
+}
+
+.cardRender.poison {
+  background-color: #A040A0;
+}
+
+.cardRender.psychic {
+  background-color: #F85888;
+}
+
+.cardRender.rock {
+  background-color: #B8A038;
+}
+
+.cardRender.steel {
+  background-color: #B8B8D0;
+}
+

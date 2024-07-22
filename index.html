@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="type.css">
+  <script src="script.js"></script>
+  <script src="script2.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
+  <link rel="icon" type="image/logo" href="./img/favicon.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+  <title>Pokedex</title>
+  </head>
+  <body onload="includeHTML(), renderPokemonAll(), initializePage()">
+  <div w3-include-html="templates/header.html"></div>
+  
+  <div class="wrapper">
+    <img src="./loadingspinner/pokeball.gif" alt="">
+  </div>
+
+  <div class="loadingWrapper">
+    <img src="./loadingspinner/pokeball.gif" alt="">
+    <h5>Loading...</h5>
+  </div>
+  
+<div class="main-Container">
+  <div id="content" class="content"></div>
+  <div id="button-85" class="Btn-container">
+      <button class="button-85" onclick="renderPokemonAll()">Weitere Laden</button>
+  </div>
+</div>
+
+
+<div id="FullSize">
+  
+ 
+</div>
+  
+
+<div w3-include-html="templates/footer.html"></div>
+</body>
+</html>
+
+
